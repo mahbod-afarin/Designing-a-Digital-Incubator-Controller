@@ -25,6 +25,10 @@ The system continuously monitors the temperature and uses a finite state machine
  └──────┘  │ + Fan │
            └───────
 
+     ┌───────────┐
+     │  Sensor   │
+     └────┬──────┘
+
 ## Sensor Input
 
 - The **temperature sensor** reads the internal temperature of the incubator (range: **-10°C to +60°C**).
