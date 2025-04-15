@@ -9,26 +9,7 @@ The goal of this experiment is to **design and implement the digital control uni
 - A **heating unit**
 
 The system continuously monitors the temperature and uses a finite state machine (FSM) to control the activation of the heater, cooler, and fan speed.
-
-## System Overview
-
-     ┌───────────┐
-     │  Sensor   │
-     └────┬──────┘
-          │
-  ┌───────▼────────┐
-  │  Digital Ctrl  │
-  └────┬────┬──────┘
-       │    │
- ┌─────▼┐  ┌▼──────┐
- │Heater│  │Cooler │
- └──────┘  │ + Fan │
-           └───────
-
-     ┌───────────┐
-     │  Sensor   │
-     └────┬──────┘
-
+  
 ## Sensor Input
 
 - The **temperature sensor** reads the internal temperature of the incubator (range: **-10°C to +60°C**).
